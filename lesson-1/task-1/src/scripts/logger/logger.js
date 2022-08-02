@@ -3,10 +3,10 @@ export const createLogger = name => {
 
   return {
     log(message) {
-      logs.push(`log - $(name) - ${message}`);
+      logs.push(`log - ${name} - ${message}`);
     },
     error(errorText) {
-      logs.push(`error - $(name) - ${errorText}`);
+      logs.push(`error - ${name} - ${errorText}`);
 
     },
     getLogs() {
