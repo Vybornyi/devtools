@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:scripts": "webpack ./src/index.js",
+    "build:scripts": "webpack ./src/index.js -p",
     "watch:scripts": "webpack ./src/index.js -d --devtool eval-source-maps -w"
   },
   "keywords": [],
